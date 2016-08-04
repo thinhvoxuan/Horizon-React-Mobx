@@ -6,3 +6,6 @@ dev_up:
 
 ps:
 	docker-compose ps
+
+stop:
+		docker stop $$(docker ps -a -q)
